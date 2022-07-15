@@ -1,0 +1,37 @@
+/* hierarchy of selector: ID > CLASS > TAG */
+
+
+/****************** TAG SELECTOR ********************/
+
+h1 {
+    color: red;
+    font-size: 100px;
+}
+/* this is how you use a hover pseudo class. you can identify the pseudo class if it has a colon before the word. like :hover  */
+ img:hover {
+    background-color: gold;
+} 
+
+
+/****************** CLASS SELECTOR ********************/
+
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+    height: 160px;
+    width: 160px;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+
+/****************** ID SELECTOR ********************/
+
+#heading{
+    color: blue;
+}
